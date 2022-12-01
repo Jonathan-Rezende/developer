@@ -7,7 +7,6 @@ function App() {
       <BrowserRouter>
       <GlobalStyle />
       <Header />
-      <h1>Jonathan Rezende</h1>
       </BrowserRouter>
   );
 }
