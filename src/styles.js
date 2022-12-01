@@ -2,9 +2,9 @@ import { createGlobalStyle } from "styled-components" ;
 
 export const  GlobalStyle = createGlobalStyle`
         img{
-            border: 5px solid white;
-            width: 200px;
-            height: 55px;
+            margin-right:20%;
+            width: 300px;
+            height: 55px;       
         }
         
     

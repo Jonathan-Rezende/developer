@@ -5,8 +5,8 @@ export const HeaderContainer = styled.header`
     display: flex;
     align-items: center;
     justify-content: space-around;
-    background-color: #190958;
     border: 3px solid black;
+    color: #FFF;
 
 
     div{
@@ -15,7 +15,7 @@ export const HeaderContainer = styled.header`
         display: flex;
         align-items: center;
         justify-content: center;
-        color:white;
+        color: FFF;
 
         .header-ul{
         width:100%;
@@ -24,8 +24,10 @@ export const HeaderContainer = styled.header`
         display: flex;
         align-items: center;
         justify-content: space-around;
-        }
     }
-
+}
 `;
 
+export const Content = styled.header`
+
+`;
