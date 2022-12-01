@@ -1,15 +1,16 @@
+import { BrowserRouter } from "react-router-dom";
 import Header from "./components/Header";
-import Styled from "./components/styled.css";
-import { BrowserRouter} from "react-router-dom"
+import GlobalStyled from "../src/components/Header/index";
+
 function App() {
   return (
     <div className="App">
+      <GlobalStyled />
       <BrowserRouter>
-      <Styled />
-    <Header />
-    <h1>E-Dashboard</h1>
+      <Header />
+      <h1>Jonathan Rezende</h1>
       </BrowserRouter>
-  </div>
+    </div>
   );
 }
 
