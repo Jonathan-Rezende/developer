@@ -5,8 +5,10 @@ export const HeaderContainer = styled.header`
     display: flex;
     align-items: center;
     justify-content: space-around;
-    background-color: black;
-    
+    background-color: #190958;
+    border: 3px solid black;
+
+
     div{
         flex: 1;
         height: 100%;
@@ -24,8 +26,6 @@ export const HeaderContainer = styled.header`
         justify-content: space-around;
         }
     }
-
-
 
 `;
 
