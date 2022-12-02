@@ -6,14 +6,14 @@ export const  GlobalStyle = createGlobalStyle`
             width: 300px;
             height: 55px;       
         }
-        
+    
     
 
     *{
-        background-color: #190958;
         margin: 0;
         padding: 0;
         box-sizing: border-box;  
+        background-color: #21204a;
     
     }
 
