@@ -2,11 +2,10 @@ import React from 'react';
 import { HeaderContainer } from './styles';
 import { Link } from "react-router-dom";
 import  LogoJonathan  from "../../assets/img/logo.png"
-import {Content} from "../Header/styles"
+
 
 function Header () {
   return(
-
     <HeaderContainer>
       <div>
         <img src={LogoJonathan} alt="LogoJonathan" />
@@ -22,13 +21,8 @@ function Header () {
       <div>
         botaocurri
       </div>
-      <Content>
-        
-      </Content>
-    </HeaderContainer>
+    </HeaderContainer> 
 
-   
-    
   )
 }
 
